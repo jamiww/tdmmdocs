@@ -1,5 +1,7 @@
 plugins:
   - jekyll-relative-links
+  - name: Markdown action: create indexes
+    uses: DaanV2/Markdown-Action-Create-Indexes@v2.0.0
 relative_links:
   enabled: true
   collections: true
