@@ -1,10 +1,5 @@
 plugins:
   - jekyll-relative-links
-  - name: Generated Markdown Readmes
-  uses: DaanV2/Markdown-Action-Create-Indexes@v2.0.0
-  with: 
-    folder: ${{github.workspace}}
-    filename: index.md
 relative_links:
   enabled: true
   collections: true
