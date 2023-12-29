@@ -5,9 +5,9 @@
 
 #### Step 1: Setup
 First, we need to set some things up. Make up a "Tower ID" which will be used throughout the code base. This can be different from the tower's name, but try to keep it close enough so that its recognizable. Don't use spaces in the tower's ID. 
-Once you have an ID for the tower, grab the model for the tower, and insert it into `Assets/Models/Towers`. Make sure to rename the tower model to your tower ID.
+Once you have an ID for the tower, create a folder in `Assets/Models/Towers`. Rename the folder to your tower's ID. Now, insert your models into the folder, and name them from "0" to "4". "0" will be the model shown when place, and each increment is an upgrade. You can skip upgrades, or not have any as it will keep the last used tower model if there is no model.
 
-![](https://github.com/jamiww/tdmmdocs/blob/main/TowerSetup1.png)
+![](https://github.com/jamiww/tdmmdocs/blob/main/TowerImage2.png)
 
 Adding the animation is pretty much the same, but you need to make a folder for the tower instead. Locate the tower animation folder (`Assets/Animations/Towers`), and insert a folder into it. Change your new folder's name to your tower ID. Once you do that, insert a new Animation into your tower's folder, and name it `FIRE`. Insert your animation's ID into the animation. This will be used whenever the tower shoots/does an action.
 
