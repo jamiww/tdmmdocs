@@ -62,6 +62,7 @@ This by itself will not work, you need to fill out those values. Here is what ea
 - `Generator`:
 	- `Delay`: Delay between money generations (in seconds)
   	- `MoneyGenerated`: Amount of money generated each generation
+  	- `HealthGenerated` Amount of health generated at the end of each round
   	- `SETUP`: **ONLY SET IF YOU KNOW WHAT YOU ARE DOING!!** Function used when tower is made. `Tower` object is passed as a parameter, like `function(tower) end`.
 #### Step 3: Making upgrades
 Creating upgrades is easy. Create new ModuleScripts under your tower's data module, and number them `1` to however many upgrades you need.
