@@ -60,7 +60,9 @@ This by itself will not work, you need to fill out those values. Here is what ea
 	- `Damage`: How much damage each projectile does.
 	- `SETUP`: **ONLY SET IF YOU KNOW WHAT YOU ARE DOING!!** Function used when tower is made. `Tower` object is passed as a parameter, like `function(tower) end`.
 - `Generator`:
-	- Uhhhhhhh not made yet check back later lol
+	- `Delay`: Delay between money generations (in seconds)
+  	- `MoneyGenerated`: Amount of money generated each generation
+  	- `SETUP`: **ONLY SET IF YOU KNOW WHAT YOU ARE DOING!!** Function used when tower is made. `Tower` object is passed as a parameter, like `function(tower) end`.
 #### Step 3: Making upgrades
 Creating upgrades is easy. Create new ModuleScripts under your tower's data module, and number them `1` to however many upgrades you need.
 
